@@ -1,0 +1,6 @@
+name: hermes-uncertain-write-lab
+version: 0.1.0-alpha.1
+manifest_version: 2
+api_version: 1
+license: MIT
+description: "FR : Réconcilier une écriture distante dont la réponse est perdue / EN: Reconcile a remote write with a lost response / ES: Conciliar escritura remota con respuesta perdida"

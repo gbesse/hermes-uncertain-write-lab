@@ -1,0 +1,8 @@
+{
+  "operation_key": "create-order-1",
+  "payload": {
+    "item": "synthetic",
+    "quantity": 1
+  },
+  "lookup_supported": true
+}

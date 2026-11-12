@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-uncertain-write-lab"
+version = "0.1.0a1"
+description = "FR: Réconcilier une écriture distante dont la réponse est perdue | EN: Reconcile a remote write with a lost response | ES: Conciliar escritura remota con respuesta perdida"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+hermes-uncertain-write-lab = "hermes_uncertain_write_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["hermes_uncertain_write_lab*"]
